@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diesly & Raiane | Casamento</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #f5f1e8;
+  color: #596344;
+  text-align: center;
+}
+
+.container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: #fffdf8;
+  border: 1px solid #d9d2bd;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.data {
+  letter-spacing: 3px;
+  margin: 25px 0;
+}
+
+p {
+  line-height: 1.7;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirmar {
+  background: #66734f;
+  color: white;
+}
+
+.recusar {
+  background: #e9e5db;
+  color: #596344;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Diesly & Raiane</h1>
+
+<div class="data">21 . 11 . 2026</div>
+
+<p>
+Nosso grande dia está chegando!<br>
+Será uma alegria celebrar esse momento
+especial com você.
+</p>
+
+<p>
+<strong>Chegada a partir das 16h30.</strong>
+</p>
+
+<p>
+A presença é permitida aos convidados
+do convite, seus respectivos cônjuges
+ou companheiros(as) e filhos.
+</p>
+
+<p>
+Com carinho,<br>
+<strong>Diesly & Raiane</strong>
+</p>
+
+<button class="confirmar"
+onclick="location.href='https://wa.me/5562991088657?text=Confirmo%20minha%20presen%C3%A7a%20no%20casamento%20de%20Diesly%20e%20Raiane!'">
+💚 CONFIRMAR PRESENÇA
+</button>
+
+<button class="recusar"
+onclick="location.href='https://wa.me/5562991088657?text=N%C3%A3o%20poderei%20comparecer%20ao%20casamento.'">
+NÃO PODEREI COMPARECER
+</button>
+
+</div>
+</body>
+</html>
